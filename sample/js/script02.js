@@ -2,7 +2,7 @@ $(function(){
   
   
   $("#button01").on("click",function(){
-    $("#content").text("ここになにか入れたい文章など");
+    $("#content").text("ここになにか入れたい文章など変換された文章");
   })
 
   $("#button02").on("click",function(){
@@ -15,13 +15,16 @@ $(function(){
 
   //ここからjavascriptの話
 
-  let txt1 = "ここになにか文章がある。この文章はtxt1という変数で定義されている";
-  let txt2 = "さらにここになにか文章がある。この文章はtxt2という変数で定義されている";
+  let txt1 = "こんにちは。";
+  let txt2 = "いい天気ですね。";
+  let txt3 = "眠いですね。"
+
   let num1 = 100;
   let num2 = 50;
+  let num3 = "50";
 
   $("#button04").on("click",function(){
-    $("#content").text(txt1);
+    $("#content").text(txt1 + txt2 + tex3);
   })
 
   $("#button05").on("click",function(){
